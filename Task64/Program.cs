@@ -30,28 +30,3 @@ void NaturalNumbers(int N)
         NaturalNumbers(N - 1);
     }
 }
-
-
-
-
-
-// if (i < arr.Length - 1) Console.Write($"{arr[i]}, ");
-//         else Console.Write($"{arr[i]}");
-
-
-// Задача 63: Задайте значение N. Напишите программу, которая выведет
-// все натуральные числа в промежутке от 1 до N.
-// N = 5 -> "1, 2, 3, 4, 5"
-// N = 6 -> "1, 2, 3, 4, 5, 6"
-
-// Console.WriteLine("Input natural number: ");
-// int number = Convert.ToInt32(Console.ReadLine());
-
-// NaturalNumber(number);
-
-// void NaturalNumber(int number)
-// {
-//     if (number == 0) return; // условие()
-//     NaturalNumber(number - 1);//хвостовая рекурсия
-//     Console.Write($"{number} "); // вывод метода
-// }
